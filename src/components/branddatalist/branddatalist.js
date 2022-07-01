@@ -1,6 +1,6 @@
 // import { useState } from "react"
 import BrandDataDisplay from "../branddatadisplay/branddatadisplay.js"
-import "../branddatalist/branddatalist.css"
+import "./branddatalist.css"
 
 function BrandDataList(time) {
     return (

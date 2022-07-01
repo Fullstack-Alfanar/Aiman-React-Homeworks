@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../timedata/updatTime.css"
+import "./updatTime.css"
 function UpdateTime() {
     const [time, setTime] = useState(0);
     const [date, setDate] = useState("");

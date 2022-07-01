@@ -1,4 +1,4 @@
-import "../branddatadisplay/branddatadisplay.css"
+import "./branddatadisplay.css"
 
 function BrandDataDisplay(branddata) {
     return (
