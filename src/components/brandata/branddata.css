@@ -1,0 +1,40 @@
+.maincontainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.maincontainer .labelcontainer {
+    margin-top: 20px;
+}
+
+.main .maincontainer2 {
+    margin-left: 250px;
+}
+
+.maincontainer input {
+    padding: 7px 10px;
+    color: blue;
+    border: solid black 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.maincontainer label {
+    color: black;
+    font-weight: 600;
+}
+
+.maincontainer .labelcontainer .size {
+    margin-left: 20px;
+}
+
+.maincontainer .labelcontainer .cost {
+    margin-left: 21px;
+}
+
+.maincontainer .labelcontainer .img {
+    margin-left: 20px;
+}

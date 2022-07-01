@@ -1,0 +1,38 @@
+.maincontainer1 {
+    height: 320px;
+    width: 250px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 20px;
+    background-image: url(/src/assets/imgs/images.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 5px;
+}
+
+.maincontainer1:hover {
+    transform: scale(1.2);
+}
+
+.maincontainer1 label {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 800;
+}
+
+.maincontainer1 div {
+    margin-top: 10px;
+}
+
+.maincontainer1 .imagcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.maincontainer1 .imagcontainer img {
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+}
