@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Link } from "react-router-dom";
 import "../navbar/navbar.css"
-import RouteApp from '../route/route';
+import RoutingApp from '../route/route';
 
-function NavBar() {
+function NavigationBar() {
     return (
         <BrowserRouter>
             <div className="link-container">
@@ -14,10 +14,10 @@ function NavBar() {
                 <Link className="undline" to="employeeslist">Employyee's List</Link>
             </div>
             <div>
-                <RouteApp />
+                <RoutingApp />
             </div>
 
         </BrowserRouter>
     )
 }
-export default NavBar
+export default NavigationBar

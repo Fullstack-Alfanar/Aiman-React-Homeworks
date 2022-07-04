@@ -23,12 +23,12 @@ function BrandsList() {
                 </tr>
             </thead>
             <tbody>
-                {brandlist.map(data =>
+                {brandlist.map(branddata =>
                     <tr className="td-contaner2">
-                        <td><label>{data.bname}</label></td>
-                        <td><label>{data.bsize}</label></td>
-                        <td><label>{data.bprice}</label></td>
-                        <td><img alt="" src={data.bimg} /></td>
+                        <td><label>{branddata.bname}</label></td>
+                        <td><label>{branddata.bsize}</label></td>
+                        <td><label>{branddata.bprice}</label></td>
+                        <td><img alt="" src={branddata.bimg} /></td>
                     </tr>
                 )
                 }

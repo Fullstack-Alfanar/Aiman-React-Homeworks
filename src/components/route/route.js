@@ -6,7 +6,7 @@ import AddEmployeeInfo from '../pages/addemployeeinfo/addemployeeinfo.js';
 import { useRoutes } from "react-router-dom";
 import EmployeesDataList from '../pages/employeesdatalist/employeesdatalist.js';
 
-function RouteApp() {
+function RoutingApp() {
     return (
         useRoutes([
             { path: "/", element: <MainPage /> },
@@ -17,4 +17,4 @@ function RouteApp() {
         ])
     )
 }
-export default RouteApp
+export default RoutingApp

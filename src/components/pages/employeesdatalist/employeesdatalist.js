@@ -24,15 +24,15 @@ function EmployeesDataList() {
                 </tr>
             </thead>
             <tbody>
-                {employeelist.map(data =>
+                {employeelist.map(employeedata =>
                     <tr className="td-contaner2">
-                        <td><label>{data.fname}</label></td>
-                        <td><label>{data.lname}</label></td>
-                        <td><label>{data.job}</label></td>
-                        <td><label>{data.city}</label></td>
-                        <td><label>{data.country}</label></td>
-                        <td><label>{data.born}</label></td>
-                        <td><img alt="" src={data.image} /></td>
+                        <td><label>{employeedata.fname}</label></td>
+                        <td><label>{employeedata.lname}</label></td>
+                        <td><label>{employeedata.job}</label></td>
+                        <td><label>{employeedata.city}</label></td>
+                        <td><label>{employeedata.country}</label></td>
+                        <td><label>{employeedata.born}</label></td>
+                        <td><img alt="" src={employeedata.image} /></td>
                     </tr>
                 )
                 }

@@ -2,11 +2,12 @@ import { useState } from "react"
 import React from 'react';
 import "../brandinfo/brandinfo.css"
 
+
 function BrandInfo() {
-    const [brandname, setBrandName] = useState("shose")
+    const [brandname, setBrandName] = useState("")
     const [brandsize, setBrandSize] = useState(0)
     const [brandcost, setBrandCost] = useState(0)
-    const [brandimg, setBrandImg] = useState("img")
+    const [brandimg, setBrandImg] = useState("")
     
     let brandarr = [];
     let brandobj = {

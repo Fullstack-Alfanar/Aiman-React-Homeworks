@@ -1,13 +1,13 @@
 import './App.css';
 import React from 'react';
-import NavBar from './components/navbar/navbar';
 import UpdateTime from './components/timedata/updatTime';
+import NavigationBar from './components/navbar/navbar';
 
 function App() {
   return (
     <div>
       <UpdateTime />
-      <NavBar />
+      <NavigationBar />
     </div >
 
   );
