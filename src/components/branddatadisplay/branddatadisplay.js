@@ -1,3 +1,4 @@
+import React from "react"
 import "./branddatadisplay.css"
 
 function BrandDataDisplay(branddata) {

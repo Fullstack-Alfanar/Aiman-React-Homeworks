@@ -1,16 +1,15 @@
 import './App.css';
 import React from 'react';
-import BrandDataList from "./components/branddatalist/branddatalist.js";
-import UpdateTime from "./components/timedata/updatTime.js"
+import NavBar from './components/navbar/navbar';
+import UpdateTime from './components/timedata/updatTime';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <UpdateTime />
-        <BrandDataList />
-      </header>
-    </div>
+    <div>
+      <UpdateTime />
+      <NavBar />
+    </div >
+
   );
 }
 

@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
-import "./updatTime.css"
+import { useEffect, useState } from "react";
+import React from "react";
+import "../timedata/updatTime.css"
 function UpdateTime() {
     const [time, setTime] = useState(0);
     const [date, setDate] = useState("");
