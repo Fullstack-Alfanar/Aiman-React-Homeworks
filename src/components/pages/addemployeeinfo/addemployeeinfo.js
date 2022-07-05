@@ -10,7 +10,7 @@ function AddEmployeeInfo() {
     const [country, setCountry] = useState("");
     const [birthday, setBirthday] = useState(0);
     const [img, setImg] = useState("");
-    let employeearr = [];
+
     let employeeobj = {
         fname: firstname,
         lname: lastname,
@@ -20,8 +20,31 @@ function AddEmployeeInfo() {
         born: birthday,
         image: img
     };
-    if (localStorage.getItem("employees")) {
-        employeearr = JSON.parse(localStorage.getItem("employees"));
+
+    const employeearr = (localStorage.getItem("employees")) ? JSON.parse(localStorage.getItem("employees")) : [];
+
+    function validationFunction() {
+        if (firstname.length < 2 || firstname.length > 30) {
+            alert("Invalid Name");
+        } else {
+            if (lastname.length < 2 || lastname.length > 30) {
+                alert("Invalid Family Name")
+            } else {
+                if (jobtitle < 5 || jobtitle.length > 20) {
+                    alert("Invalid Job Title ");
+                } else {
+                    if (city.length < 2 || city.length > 30) {
+                        alert("Invalid City Name");
+                    } else {
+                        if (country.length < 3 || country.length > 30) {
+                            alert("Invalid Country");
+                        } else {
+                            setLocalSrorage()
+                        }
+                    }
+                }
+            }
+        }
     }
 
     function setLocalSrorage() {
@@ -32,7 +55,7 @@ function AddEmployeeInfo() {
     return (
         <div className="emp-container">
             <h4>Employee Information</h4>
-            <form className="form">
+            <form>
                 <ul>
                     <li>
                         <label>First Name : </label>
@@ -63,7 +86,7 @@ function AddEmployeeInfo() {
                         <input className="empimg" placeholder="IMG link" type="text" onChange={(a) => setImg(a.target.value)}></input>
                     </li>
                     <div className="button-div">
-                        <button onClick={setLocalSrorage}>Save data</button>
+                        <button onClick={validationFunction}>Save data</button>
                     </div>
 
                 </ul>
