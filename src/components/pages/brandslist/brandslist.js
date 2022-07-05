@@ -14,10 +14,10 @@ function BrandsList() {
         <table>
             <thead>
                 <tr className="td-contaner1">
-                    <td><label>First Name</label></td>
-                    <td><label>Last Name</label></td>
-                    <td><label>Jop Title</label></td>
-                    <td><label>City</label></td>
+                    <td><label>Brand Name</label></td>
+                    <td><label>Brand Size</label></td>
+                    <td><label>Brand Price</label></td>
+                    <td><label>Brand Image</label></td>
                 </tr>
             </thead>
             <tbody>
