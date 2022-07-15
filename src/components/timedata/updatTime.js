@@ -18,5 +18,4 @@ function UpdateTime() {
         </div>
     )
 }
-
 export default UpdateTime;

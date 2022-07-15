@@ -7,7 +7,7 @@ function BrandInfo() {
     const [brandsize, setBrandSize] = useState(0)
     const [brandcost, setBrandCost] = useState(0)
     const [brandimg, setBrandImg] = useState("img")
-    
+
     let brandarr = [];
     let brandobj = {
         bname: brandname,
@@ -49,7 +49,6 @@ function BrandInfo() {
                     <button onClick={setLocalSrorage1} >Save Data</button>
                 </div>
             </ul >
-            
         </div >
     )
 }
