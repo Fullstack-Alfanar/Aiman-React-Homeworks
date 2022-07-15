@@ -8,6 +8,7 @@ function BrandsList() {
         if (localStorage.getItem("brand")) {
             setBrandList(JSON.parse(localStorage.getItem("brand")));
         }
+        
     }, []);
 
 

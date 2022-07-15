@@ -9,8 +9,6 @@ function App() {
       <UpdateTime />
       <NavBar />
     </div >
-
   );
 }
-
 export default App;

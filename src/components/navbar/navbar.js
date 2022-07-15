@@ -16,7 +16,6 @@ function NavBar() {
             <div>
                 <RouteApp />
             </div>
-
         </BrowserRouter>
     )
 }
