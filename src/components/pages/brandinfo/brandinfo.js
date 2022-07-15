@@ -49,6 +49,7 @@ function BrandInfo() {
                     <button onClick={setLocalSrorage1} >Save Data</button>
                 </div>
             </ul >
+            
         </div >
     )
 }

@@ -20,4 +20,5 @@ function NavBar() {
         </BrowserRouter>
     )
 }
+
 export default NavBar

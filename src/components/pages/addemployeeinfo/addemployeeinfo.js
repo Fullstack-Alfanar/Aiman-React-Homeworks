@@ -67,6 +67,7 @@ function AddEmployeeInfo() {
                     </div>
 
                 </ul>
+                
             </form>
         </div >
     )
